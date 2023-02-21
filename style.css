@@ -1,0 +1,52 @@
+:root{
+    --movile: 375px;
+    --desktop: 1440px;
+
+    --White: hsl(0, 0%, 100%);
+    --Lightgray: hsl(212, 45%, 89%);
+    --Grayishblue: hsl(220, 15%, 55%);
+    --Darkblue: hsl(218, 44%, 22%);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--Lightgray);
+}
+body{
+    min-height: 100vh;
+    position: relative;
+}
+.contenedor{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -250px 0 0 -150px;
+}
+.card{
+    background-color: var(--White);
+    width: 300px;
+    margin: auto;
+    padding: 16px;
+    border-radius: 16px;
+}
+img{
+    border-radius: 16px;
+    max-width: 100%;
+}
+
+.texto{
+    text-align: center;
+    font-size: 15px;
+    margin: 15px 0;
+}
+.titulo{
+    color: var(--Darkblue);
+}
+.parrafo{
+    margin-top: 15px;
+    color: var(--Grayishblue);
+}
